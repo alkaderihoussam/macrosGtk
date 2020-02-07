@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <xml>
+        <window 
+            titre="Ma fenêtre" 
+            type="T" 
+            largeur="600"
+            longeur="640"
+            resizable="true"
+            icon="icon.png"
+            position="GTK_WIN_POS_CENTER"
+            > 
+            <scrollbar>
+                <box> 
+                        <menubar>
+                            <MonMenu1/>
+                            <Monmenu2>
+                                   <Sous-Menu21/>                
+                                   <Sous-Menu22>    
+                                          <Sous-Menu-221/>          
+                                          <Sous-Menu-222/>          
+                                          <Sous-Menu-223/>          
+                                   </Sous-Menu22>                
+                                   <Sous-Menu23/>                
+                            </Monmenu2>
+                            <Monmenu3/>
+                        </menubar>
+                        <Table  
+                            n_rows="15" 
+                            n_columns="9" 
+                            row_spacing="0" 
+                            column_spacing="0" 
+                            homogenous="true"
+                            fill="true"
+                            expand="true">
+
+                                <label
+                                value="Vos connaissance de GTK+ "
+                                size="12"
+                                couleur="#000"
+                                weight="bold"
+                                left_attach="0" 
+                                right_attach="3" 
+                                top_attach="0" 
+                                bottom_attach="1"
+                                />
+                                <radios
+                                type="h"
+                                left_attach="0" 
+                                right_attach="5" 
+                                top_attach="1" 
+                                bottom_attach="2"
+                                xoption="GTK_EXPAND|GTK_FILL"
+                                >
+                                    <Faible/>
+                                    <Moyen/>
+                                    <Bien/>
+                                    <TrésBien/>
+                                </radios> 
+                                <label
+                                value="Vos Commentaires sur GTK+ "
+                                size="12"
+                                couleur="#000"
+                                weight="bold"
+                                left_attach="0" 
+                                right_attach="3" 
+                                top_attach="2" 
+                                bottom_attach="3"
+                                />
+                                <radios
+                                type="h"
+                                left_attach="0" 
+                                right_attach="5" 
+                                top_attach="3" 
+                                bottom_attach="4"
+                                xoption="GTK_EXPAND|GTK_FILL"
+                                >
+                                    <Convivial/>
+                                    <Intéressant/>
+                                    <Facile_à_utilisé/>
+                                    <Optimise_le_travail/>
+                                </radios> 
+
+                            <label
+                            value="Choix de date "
+                            couleur="#000"
+                            weight="bold"
+                            size="12"
+                            left_attach="0" 
+                            right_attach="3" 
+                            top_attach="4" 
+                            bottom_attach="5"
+                            />
+                            <box
+                            type="h"
+                            homogenous="true"
+                            espacement="0"
+                            left_attach="0" 
+                            right_attach="4" 
+                            top_attach="5" 
+                            bottom_attach="6"
+                            xoption="GTK_EXPAND|GTK_FILL"
+                            yoption="GTK_EXPAND"
+                            >
+                                <combobox fill="true" expand="true">
+                                    <Jour/><j val="1"/><j val="2"/><j val="3"/><j val="4"/><j val="5"/>
+                                    <j val="6"/><j val="7"/><j val="8"/><j val="9"/><j val="10"/>
+                                    <j val="11"/><j val="12"/><j val="13"/><j val="14"/>
+                                    <j val="15"/><j val="16"/><j val="17"/><j val="18"/>
+                                    <j val="19"/><j val="20"/><j val="21"/><j val="22"/>
+                                    <j val="23"/><j val="24"/><j val="25"/><j val="26"/>
+                                    <j val="27"/><j val="28"/><j val="29"/><j val="30"/>
+                                    <j val="31"/>
+                                </combobox>
+
+                                <combobox fill="true" expand="true">
+                                    <Mois/><janvier/><février/><mars/><avril/>
+                                    <mai/><juin/><juillet/><août/>
+                                    <septembre/><octobre/><novembre/><décembre/>
+                                </combobox>
+
+                                <combobox fill="true" expand="true">
+                                    <Année/><a val="1994"/><a val="1995"/><a val="1996"/><a val="1997"/>
+                                    <a val="1998"/><a val="1999"/><a val="2000"/>
+                                    <a val="2001"/><a val="2002"/><a val="2003"/><a val="2004"/>
+                                    <a val="2005"/><a val="2006"/><a val="2007"/>
+                                    <a val="2008"/><a val="2009"/><a val="2010"/><a val="2011"/>
+                                    <a val="2012"/><a val="2013"/><a val="2014"/>
+                                    <a val="2015"/><a val="2016"/><a val="2017"/><a val="2018"/>
+                                    <a val="2019"/><a val="2020"/><a val="2021"/>
+                                </combobox> 
+                            </box>
+                       <box
+                            type="h"
+                            homogenous="true"
+                            espacement="0"
+                            left_attach="0" 
+                            right_attach="2" 
+                            top_attach="6" 
+                            bottom_attach="7"
+                            xoption="GTK_EXPAND|GTK_FILL"
+                            yoption="GTK_EXPAND"
+                            >
+                                      <combobox fill="true" expand="true">
+                                    <Faire_un_choix/><janvier/><février/><mars/><avril/>
+                                    <mai/><juin/><juillet/><août/>
+                                    <septembre/><octobre/><novembre/><décembre/>
+                                </combobox>
+                                 </box>
+
+                                 <label
+                                value="Identifiant "
+                                couleur="#000"
+                                weight="bold"
+                                size="12"
+                                left_attach="2" 
+                                right_attach="3" 
+                                top_attach="7" 
+                                bottom_attach="8"
+                                />
+                                <entry 
+                                placeholder="votre numéro de téléphone"
+                                max_length="10"
+                                size="20"
+                                left_attach="2" 
+                                right_attach="3" 
+                                top_attach="8" 
+                                bottom_attach="9"
+                                xoption="GTK_EXPAND|GTK_FILL"/>
+                                <label
+                                value="Numéro : "
+                                couleur="#000"
+                                weight="bold"
+                                size="12"
+                                left_attach="2" 
+                                right_attach="3" 
+                                top_attach="9" 
+                                bottom_attach="10"
+                                />
+                                <entry 
+                                placeholder="votre numéro de téléphone"
+                                max_length="10"
+                                size="20"
+                                left_attach="2" 
+                                right_attach="3" 
+                                top_attach="10" 
+                                visibility='false'
+                                bottom_attach="11"
+                                xoption="GTK_EXPAND|GTK_FILL"/>
+
+                          <box
+                            type="h"
+                            homogenous="true"
+                            espacement="0"
+                            left_attach="2" 
+                            right_attach="3" 
+                            top_attach="11" 
+                            bottom_attach="12"
+                            xoption="GTK_EXPAND|GTK_FILL"
+                            yoption="GTK_EXPAND"
+                            >
+                            <button
+                            stock_icon="2"
+                            fill="true"
+                            expand="true"
+                            />
+                            <button
+                            stock_icon="4"
+                            fill="true"
+                            expand="true"
+                            />
+                            </box>  
+
+                                          
+                    </Table>
+                    </box> 
+                     </scrollbar>
+        </window>
+    </xml>

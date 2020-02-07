@@ -1,0 +1,12 @@
+help-about
+list-add
+format-text-bold
+gtk-apply
+gtk-cancel
+edit-clear
+window-close
+edit-copy
+edit-cut
+edit-delete
+dialog-password
+folder

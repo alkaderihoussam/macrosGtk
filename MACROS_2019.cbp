@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MACROS_2019" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MACROS_2019" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add directory="include/libxml" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MACROS_2019" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-mms-bitfields" />
+			<Add option="-Wall" />
+			<Add directory="C:/GTK/include" />
+			<Add directory="C:/GTK/include/gtk-3.0" />
+			<Add directory="C:/GTK/include/cairo" />
+			<Add directory="C:/GTK/include/gdk" />
+			<Add directory="C:/GTK/include/glib-2.0" />
+			<Add directory="C:/GTK/lib/glib-2.0/include" />
+			<Add directory="C:/GTK/include/pango-1.0" />
+			<Add directory="C:/GTK/lib/gtk-3.0/include" />
+			<Add directory="C:/GTK/include/atk-1.0" />
+			<Add directory="C:/GTK/include/gdk-pixbuf-2.0" />
+		</Compiler>
+		<Linker>
+			<Add library="gtk-win32-3.0" />
+			<Add library="gobject-2.0" />
+			<Add library="glib-2.0" />
+			<Add directory="C:/GTK/lib" />
+		</Linker>
+		<Unit filename="MACROS/G_BarreOutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/G_BarreOutil.h" />
+		<Unit filename="MACROS/G_Box.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/G_Box.h" />
+		<Unit filename="MACROS/G_Button.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/G_Button.h" />
+		<Unit filename="MACROS/G_ComboBox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/G_ComboBox.h" />
+		<Unit filename="MACROS/G_Entry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/G_Entry.h" />
+		<Unit filename="MACROS/G_Notebook.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/G_Notebook.h" />
+		<Unit filename="MACROS/G_Table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/G_Table.h" />
+		<Unit filename="MACROS/G_checkButton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/G_checkButton.h" />
+		<Unit filename="MACROS/G_image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/G_image.h" />
+		<Unit filename="MACROS/G_label.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/G_label.h" />
+		<Unit filename="MACROS/G_menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/G_menu.h" />
+		<Unit filename="MACROS/G_radioButton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/G_radioButton.h" />
+		<Unit filename="MACROS/G_util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/G_util.h" />
+		<Unit filename="MACROS/G_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/G_window.h" />
+		<Unit filename="MACROS/Macros.h" />
+		<Unit filename="MACROS/UTF8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MACROS/UTF8.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

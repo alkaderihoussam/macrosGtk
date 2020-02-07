@@ -1,0 +1,60 @@
+        <window 
+            titre="Ma fenêtre" 
+            type="T" 
+            largeur="700"
+            longeur="700"
+            resizable="true"
+            icon="icon.png"
+            position="GTK_WIN_POS_CENTER">
+              <scrollbar>
+                <box
+                    type="v"
+                    homogenous="true"
+                    espacement="0"> 
+                        <menubar>
+                            <Fichier>
+                                <Nouveau type="1" option="1"/>
+                                <separ/>
+                                <Ouvrir type="1" option="2"/>
+                                <Enregistrer type="1" option="3" >
+                                    <Fermer  type="1" option="4"/>
+                                    <separ/>
+                                    <Quitter  type="1" option="5">
+                                        <C/>
+                                    </Quitter>
+                                    <K type="2" />
+                                    <K type="2" />
+                                    <K type="2" />
+                                    <K type="2" />
+                                    <K type="2" />
+                                    <separ/>
+                                    <L type="3" sensitive="0"/>                          
+                                    <L type="3"/>                          
+                                    <L type="3"/>                          
+                                    <L type="3"/>                                                     
+                                </Enregistrer>
+                            </Fichier>
+                            <Modifier/>
+                            <chercher/>
+                        </menubar>
+                        <toolbar >
+                            <A/>
+                            <B/>
+                            <C/>
+                            <D />
+                            <E/>
+                            <Z/>
+                            <K />
+                        </toolbar>
+                        <IP_Table  
+                            n_rows="15" 
+                            n_columns="9" 
+                            row_spacing="0" 
+                            column_spacing="0" 
+                            homogenous="true"
+                            fill="true"
+                            expand="true"
+                            help="true"></IP_Table>
+                    </box> 
+                    </scrollbar>   
+        </window>
